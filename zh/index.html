@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Husk · 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1b19; --muted: #6b645c; --bg: #fbf8f4; --link: #b5541c; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ece6df; --muted: #a59d94; --bg: #1b1917; --link: #f2a46b; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  nav { font-size: 14px; color: var(--muted); margin-bottom: 24px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p { margin: 0 0 10px; overflow-wrap: anywhere; }
+  .updated { color: var(--muted); margin-bottom: 8px; }
+  .contact { margin-top: 32px; padding-top: 16px; border-top: 1px solid color-mix(in srgb, var(--muted) 35%, transparent); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../">English</a> · <strong>中文</strong> · <a href="../es/">Español</a> · <a href="../pt/">Português</a></nav>
+<h1>隐私政策</h1>
+<p class="updated">更新日期：2026 年 10 月 2 日</p>
+<h2>适用范围与联系</h2>
+<p>本政策适用于本应用（Husk）。本应用面向 18 岁及以上用户，全球发行，无需注册账户。提供方的支持邮箱及在线政策地址见本页下方；开发与验收构建可能尚未配置这些地址。</p>
+<h2>视频与音频</h2>
+<p>转换、剪辑和播放在设备上完成。本应用不会把源视频、输出音频、文件名、文件路径或媒体内容发送给开发者或广告服务。只访问你通过系统选择器选择或授权的文件。输出保存到应用显示的公共音乐目录；用户主动分享或用其他应用打开后，接收方按其自身政策处理文件。云端文件提供方可能自行下载或同步文件。</p>
+<h2>语音转文字</h2>
+<p>转文字在设备上完成，音频和文字稿都不会上传。第一次使用某个识别质量时，应用会从第三方模型托管平台 Hugging Face 下载一次对应的语音模型（约 31 MB 或 60 MB）。和任何下载一样，该请求会让对方看到你的 IP 地址和常规连接信息；应用不会随请求发送媒体、文字或应用标识，该请求适用 Hugging Face 的隐私政策：<a href="https://huggingface.co/privacy">https://huggingface.co/privacy</a> 。语音识别可能出错，依赖文字内容前请核对重要信息。</p>
+<h2>本地保存与删除</h2>
+<p>任务数据库在应用私有存储中保存文件名、URI、转换参数和结果记录；临时音频用于完成转换和转文字。文字稿和已下载的语音模型同样保存在应用私有存储中，可在应用内删除文字稿、在设置中删除模型。设置、购买权益缓存、待确认订单和使用次数保存在本地。应用私有数据明确排除 Android 云备份与设备迁移。清除应用数据或卸载会删除这些私有记录；公共目录中的已导出音频可能保留，可在音频库或系统文件管理器删除。其他应用、用户主动同步及设备厂商的独立备份行为不由本应用控制。</p>
+<h2>广告与隐私选择</h2>
+<p>免费版本使用 Google AdMob。广告 SDK 可能收集并共享 IP 地址（可推导大致位置）、应用启动和广告点击等交互、诊断与性能信息、广告 ID、应用集 ID 及适用的设备或账户标识，用于广告、分析、防欺诈与安全。Google 声明这些 SDK 数据传输使用 TLS。离线转换不依赖广告网络；“媒体不上传”不表示广告及商店服务不联网。</p>
+<p>Google UMP 根据适用地区管理同意或退出选择，覆盖欧洲经济区、英国、瑞士及适用的美国州隐私消息。设置中的“隐私选项”在 UMP 要求时持续可用，买断后也保留。可通过该入口更改选择，并在 Android 设置中重置或删除广告 ID。拒绝个性化广告并不一定禁用所有广告或所有 SDK 数据处理。Google 的处理说明：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> 。</p>
+<h2>购买与评分</h2>
+<p>一次性去广告通过 Google Play 处理；本应用读取订单及确认状态以交付、恢复权益，不接收银行卡信息。购买后停止请求和展示广告，先前数据的处理及保存由 Google 的政策决定。应用内评分由 Google Play 提供；评价及关联信息由 Google 处理。本版本没有接入 Firebase Crashlytics 或额外的业务分析 SDK。</p>
+<h2>主动联系与诊断</h2>
+<p>仅在你主动选择发送后，邮件应用才会发送诊断邮件。诊断内容包括音频编码、容器、时长、错误码、设备型号、Android 与应用版本，不附带媒体、文件名或路径。你可发送前编辑。邮件地址、邮件正文及你主动添加的内容会到达支持方，用于答复和排障，仅在处理问题及必要记录所需期间保留；可通过支持邮箱请求访问、更正或删除。邮件服务提供方按其政策处理邮件。</p>
+<h2>权利与更新</h2>
+<p>可以在设备上删除本地记录和音频、在隐私选项中管理适用的同意或退出权利，或联系支持方提出数据请求。第三方数据请求也可通过 Google 隐私页面提出。依地区可能享有访问、删除、更正、反对或限制处理、撤回同意及向监管机关投诉的权利；撤回不影响此前合法处理。本政策变更随应用更新提供，并同步到在线政策。</p>
+<section class="contact"><p>联系支持: <a href="mailto:huskapp.support@gmail.com">huskapp.support@gmail.com</a></p><p>打开在线隐私政策: <a href="https://bignof.github.io/husk-privacy/">https://bignof.github.io/husk-privacy/</a></p></section>
+</main>
+</body>
+</html>
